@@ -164,57 +164,49 @@
     
 
 
-    <!-- http://www.hsu-ifa.de/ontologies/ISA88.01#executesProcess -->
+    <!-- http://www.hsu-ifa.de/ontologies/ISA88.01#executesOperation -->
 
-    <owl:ObjectProperty rdf:about="http://www.hsu-ifa.de/ontologies/ISA88.01#executesProcess">
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
-        <rdfs:domain rdf:resource="http://www.hsu-ifa.de/ontologies/ISA88.01#Area"/>
-        <rdfs:range rdf:resource="http://www.hsu-ifa.de/ontologies/ISA88.01#Process"/>
+    <owl:ObjectProperty rdf:about="http://www.hsu-ifa.de/ontologies/ISA88.01#executesOperation">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.hsu-ifa.de/ontologies/ISA88.01#Unit"/>
+        <rdfs:range rdf:resource="http://www.hsu-ifa.de/ontologies/ISA88.01#Operation"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.hsu-ifa.de/ontologies/ISA88.01#executesProcessAction -->
+    <!-- http://www.hsu-ifa.de/ontologies/ISA88.01#executesPhase -->
 
-    <owl:ObjectProperty rdf:about="http://www.hsu-ifa.de/ontologies/ISA88.01#executesProcessAction">
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+    <owl:ObjectProperty rdf:about="http://www.hsu-ifa.de/ontologies/ISA88.01#executesPhase">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
         <rdfs:domain>
             <owl:Class>
                 <owl:unionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="http://www.hsu-ifa.de/ontologies/ISA88.01#EquipmentModule"/>
-                    <rdf:Description rdf:about="http://www.hsu-ifa.de/ontologies/ISA88.01#ProcessCell"/>
+                    <rdf:Description rdf:about="http://www.hsu-ifa.de/ontologies/ISA88.01#Unit"/>
                 </owl:unionOf>
             </owl:Class>
         </rdfs:domain>
-        <rdfs:range rdf:resource="http://www.hsu-ifa.de/ontologies/ISA88.01#ProcessAction"/>
+        <rdfs:range rdf:resource="http://www.hsu-ifa.de/ontologies/ISA88.01#Phase"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.hsu-ifa.de/ontologies/ISA88.01#executesProcessOperation -->
+    <!-- http://www.hsu-ifa.de/ontologies/ISA88.01#executesRecipeProcedure -->
 
-    <owl:ObjectProperty rdf:about="http://www.hsu-ifa.de/ontologies/ISA88.01#executesProcessOperation">
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+    <owl:ObjectProperty rdf:about="http://www.hsu-ifa.de/ontologies/ISA88.01#executesRecipeProcedure">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
         <rdfs:domain rdf:resource="http://www.hsu-ifa.de/ontologies/ISA88.01#ProcessCell"/>
-        <rdfs:range rdf:resource="http://www.hsu-ifa.de/ontologies/ISA88.01#ProcessOperation"/>
+        <rdfs:range rdf:resource="http://www.hsu-ifa.de/ontologies/ISA88.01#RecipeProcedure"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.hsu-ifa.de/ontologies/ISA88.01#executesProcessStage -->
+    <!-- http://www.hsu-ifa.de/ontologies/ISA88.01#executesUnitProcedure -->
 
-    <owl:ObjectProperty rdf:about="http://www.hsu-ifa.de/ontologies/ISA88.01#executesProcessStage">
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
-        <rdfs:domain rdf:resource="http://www.hsu-ifa.de/ontologies/ISA88.01#ProcessCell"/>
-        <rdfs:range rdf:resource="http://www.hsu-ifa.de/ontologies/ISA88.01#ProcessStage"/>
+    <owl:ObjectProperty rdf:about="http://www.hsu-ifa.de/ontologies/ISA88.01#executesUnitProcedure">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.hsu-ifa.de/ontologies/ISA88.01#Unit"/>
+        <rdfs:range rdf:resource="http://www.hsu-ifa.de/ontologies/ISA88.01#UnitProcedure"/>
     </owl:ObjectProperty>
     
 
