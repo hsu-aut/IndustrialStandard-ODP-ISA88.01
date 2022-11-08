@@ -25,7 +25,6 @@
 
     <owl:ObjectProperty rdf:about="http://www.hsu-ifa.de/ontologies/ISA88.01#consistsOfOperations">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
         <rdfs:domain rdf:resource="http://www.hsu-ifa.de/ontologies/ISA88.01#UnitProcedure"/>
@@ -39,7 +38,6 @@
 
     <owl:ObjectProperty rdf:about="http://www.hsu-ifa.de/ontologies/ISA88.01#consistsOfPhases">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
         <rdfs:domain rdf:resource="http://www.hsu-ifa.de/ontologies/ISA88.01#Operation"/>
@@ -53,7 +51,6 @@
 
     <owl:ObjectProperty rdf:about="http://www.hsu-ifa.de/ontologies/ISA88.01#consistsOfUnitProcedures">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
         <rdfs:domain rdf:resource="http://www.hsu-ifa.de/ontologies/ISA88.01#RecipeProcedure"/>
@@ -67,7 +64,6 @@
 
     <owl:ObjectProperty rdf:about="http://www.hsu-ifa.de/ontologies/ISA88.01#containsArea">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
         <rdfs:domain rdf:resource="http://www.hsu-ifa.de/ontologies/ISA88.01#Site"/>
@@ -81,7 +77,6 @@
 
     <owl:ObjectProperty rdf:about="http://www.hsu-ifa.de/ontologies/ISA88.01#containsControlModule">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
         <rdfs:domain>
@@ -104,7 +99,6 @@
 
     <owl:ObjectProperty rdf:about="http://www.hsu-ifa.de/ontologies/ISA88.01#containsEquipmentModule">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
         <rdfs:domain>
@@ -126,7 +120,6 @@
 
     <owl:ObjectProperty rdf:about="http://www.hsu-ifa.de/ontologies/ISA88.01#containsProcessCell">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
         <rdfs:domain rdf:resource="http://www.hsu-ifa.de/ontologies/ISA88.01#Area"/>
@@ -140,7 +133,6 @@
 
     <owl:ObjectProperty rdf:about="http://www.hsu-ifa.de/ontologies/ISA88.01#containsSite">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
         <rdfs:domain rdf:resource="http://www.hsu-ifa.de/ontologies/ISA88.01#Enterprise"/>
@@ -154,7 +146,6 @@
 
     <owl:ObjectProperty rdf:about="http://www.hsu-ifa.de/ontologies/ISA88.01#containsUnit">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
         <rdfs:domain rdf:resource="http://www.hsu-ifa.de/ontologies/ISA88.01#ProcessCell"/>
@@ -246,7 +237,6 @@
     <!-- http://www.hsu-ifa.de/ontologies/ISA88.01#isRealizedInProcess -->
 
     <owl:ObjectProperty rdf:about="http://www.hsu-ifa.de/ontologies/ISA88.01#isRealizedInProcess">
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
         <rdfs:domain rdf:resource="http://www.hsu-ifa.de/ontologies/ISA88.01#RecipeProcedure"/>
@@ -260,7 +250,6 @@
 
     <owl:ObjectProperty rdf:about="http://www.hsu-ifa.de/ontologies/ISA88.01#isRealizedInProcessAction">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
         <rdfs:domain rdf:resource="http://www.hsu-ifa.de/ontologies/ISA88.01#Phase"/>
@@ -274,7 +263,6 @@
 
     <owl:ObjectProperty rdf:about="http://www.hsu-ifa.de/ontologies/ISA88.01#isRealizedInProcessOperation">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
         <rdfs:domain rdf:resource="http://www.hsu-ifa.de/ontologies/ISA88.01#Operation"/>
@@ -288,7 +276,6 @@
 
     <owl:ObjectProperty rdf:about="http://www.hsu-ifa.de/ontologies/ISA88.01#isRealizedInProcessStage">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
         <rdfs:domain rdf:resource="http://www.hsu-ifa.de/ontologies/ISA88.01#UnitProcedure"/>
